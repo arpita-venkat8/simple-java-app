@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: java-app
-          image: arpita-venkat8/java-app:latest
+          image: arpitavenkat8/java-app:latest
           ports:
             - containerPort: 8080
 
