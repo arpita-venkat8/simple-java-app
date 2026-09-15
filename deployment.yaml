@@ -26,7 +26,7 @@ metadata:
 spec:
   type: NodePort
   selector:
-    app: java-app
+    app: java-appdocker pull eclipse-temurin:17-jdk
   ports:
     - port: 80
       targetPort: 8080
